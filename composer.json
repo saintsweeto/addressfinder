@@ -1,0 +1,25 @@
+{
+    "name": "saintsweeto/addressfinder",
+    "description": "A PHP wrapper for NZ AddressFinder API",
+    "type": "library",
+    "keywords": [
+        "address-finder",
+        "address-finder api",
+        "address-finder php wrapper"
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "EJ Ramos",
+            "email": "emjohnramos@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hiraya\\": "src/"
+        }
+    }
+}
